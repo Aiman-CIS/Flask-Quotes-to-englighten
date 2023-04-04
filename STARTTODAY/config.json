@@ -1,0 +1,25 @@
+{
+    "Parameters":
+    {
+        "Local_server":"True",
+        "local_URI":"mysql://root:@localhost/codingforyou",
+        "produ_URI":"mysql://root:@localhost/codingforyou ",
+        "fb_URL":"https://facebook.com/Quotes to enlighten",
+        "tw_URL":"https://twitter.com/Quotes to enlighten ",
+        "gh_URL":"https://github.com/Quotes to enlighten ",
+        "Gmail_user":"shaikh834@gmail.com",
+        "Gmail_password":"***********************",
+        "about_text": "Hey, Its me Aiman here.",
+        "No_of_posts":2,
+        "blog_name":"codingforyou",
+        "login_image":"logo.svg",
+        "admin_login":"Aimy@gmail.com",
+        "admin_pass": "****",
+        "home_image":"home-bg.jpg",
+        "upload_file_loc":"C:\\Users\\Hp\\Desktop"
+
+
+    
+    }
+
+}

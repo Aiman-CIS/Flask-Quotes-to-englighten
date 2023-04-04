@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block body %}
+
+        <!-- Page Header-->
+        {% set fname=  post.imgfile   %}
+        <header class="masthead" style="background-image: url(' {{url_for('static', filename=fname)}}')"></header>
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>{{post.title}}</h1>
+                            <h2 class="subheading"></h2>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                       {{post.content}}
+
+                       <span class="meta">
+                        Posted by Aiman
+                        <a href="#!"></a>
+                        on {{post.date}}
+                    </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </article>
+      
+       
+{% endblock %}
